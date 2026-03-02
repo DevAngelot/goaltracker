@@ -67,7 +67,7 @@ const Dashboard = () => {
       <main className="mx-auto max-w-5xl px-4 py-8">
         <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
           <h1 className="text-2xl font-bold text-foreground sm:text-3xl">
-            Bonjour 👋
+            Bonjour 
           </h1>
           <p className="mt-1 text-muted-foreground">
             {stats.total === 0
